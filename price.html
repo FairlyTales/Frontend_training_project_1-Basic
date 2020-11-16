@@ -33,13 +33,14 @@
         </a>
 
         <ul class="site-navigation">
-          <li><a href="info.html" title="Информация">Информация</a></li>
-          <li><a href="news.html" title="Новости">Новости</a></li>
+          <li><a href="#" title="Информация">Информация</a></li>
+          <li><a href="#" title="Новости">Новости</a></li>
           <li class="site-navigation--current">
             <a title="Прайс-лист">Прайс-лист</a>
           </li>
+
           <li><a href="catalog.html" title="Магазин">Магазин</a></li>
-          <li><a href="contacts.html" title="Контакты">Контакты</a></li>
+          <li><a href="#" title="Контакты">Контакты</a></li>
         </ul>
         <ul class="user-navigation">
           <li>
@@ -57,9 +58,7 @@
           <li>
             <a href="index.html" class="breadcrumbs__item">Главная</a>
           </li>
-          <li class="breadcrumbs__item--current">
-            Прайс-лист
-          </li>
+          <li class="breadcrumbs__item--current">Прайс-лист</li>
         </ul>
 
         <section class="inner-content">
@@ -130,7 +129,8 @@
         <p class="main-footer__contacts">
           Барбершоп "Бородинский"<br />
           Адрес: г. Санкт-Петербург, Б. Конюшенная, Д. 19/6<br />
-          <a class="main-footer__map" href="map.html">Как нас найти?</a><br />
+          <a class="main-footer__map js-map" href="map.html">Как нас найти?</a
+          ><br />
           Телефон: +7 (495) 333-33-33
         </p>
 
@@ -188,7 +188,7 @@
           </ul>
         </div>
         <div class="main-footer__copyright">
-          <b>Разработано:</b>
+          <b>Макет разработан в:</b>
           <a href="https://htmlacademy.ru" class="button">HTML Academy</a>
         </div>
       </div>
@@ -203,9 +203,7 @@
         method="post"
       >
         <p>
-          <label class="visually-hidden" for="login-form__login">
-            Логин
-          </label>
+          <label class="visually-hidden" for="login-form__login"> Логин </label>
           <input
             class="login-form__login"
             type="text"
@@ -259,6 +257,17 @@
 
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
+      <iframe
+        class="interactive-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616097!3d59.938794181876254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya%20Konyushennaya%20St%2C%2019%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sen!2snl!4v1596738254793!5m2!1sen!2snl"
+        width="766"
+        height="560"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
       <p>
         <img
           src="img/map.jpg"
@@ -281,6 +290,8 @@
         <span class="visually-hidden">Закрыть</span>
       </button>
     </section>
+
     <div class="modal-overlay"></div>
+    <script src="popup.js"></script>
   </body>
 </html>

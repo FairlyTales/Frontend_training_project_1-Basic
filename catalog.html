@@ -30,13 +30,13 @@
         </a>
 
         <ul class="site-navigation">
-          <li><a href="info.html" title="Информация">Информация</a></li>
-          <li><a href="news.html" title="Новости">Новости</a></li>
+          <li><a href="#" title="Информация">Информация</a></li>
+          <li><a href="#" title="Новости">Новости</a></li>
           <li><a href="price.html" title="Прайс-лист">Прайс-лист</a></li>
           <li class="site-navigation--current">
             <a title="Магазин">Магазин</a>
           </li>
-          <li><a href="contacts.html" title="Контакты">Контакты</a></li>
+          <li><a href="#" title="Контакты">Контакты</a></li>
         </ul>
         <ul class="user-navigation">
           <li>
@@ -54,10 +54,7 @@
           <li>
             <a href="index.html" class="breadcrumbs__item">Главная</a>
           </li>
-          <li>
-            <a href="catalog.html" class="breadcrumbs__item">Магазин</a>
-          </li>
-          <li class="breadcrumbs__item--current">Средства для ухода</li>
+          <li class="breadcrumbs__item--current">Магазин</li>
         </ul>
 
         <div class="catalog-columns">
@@ -121,23 +118,23 @@
                     <input
                       class="visually-hidden filter__input filter__checkbox"
                       type="checkbox"
-                      name="Murrray's"
-                      id="Murrray's"
+                      name="American Crew"
+                      id="American Crew"
                     />
-                    <label for="Murrray's" class="filter__checkbox-label"
-                      >Murrray's</label
+                    <label for="American Crew" class="filter__checkbox-label"
+                      >American Crew</label
                     >
                   </li>
                   <li class="filter__option">
                     <input
                       class="visually-hidden filter__input filter__checkbox"
                       type="checkbox"
-                      name="American Crew"
-                      id="American Crew"
+                      name="Murrray's"
+                      id="Murrray's"
                       disabled
                     />
-                    <label for="American Crew" class="filter__checkbox-label"
-                      >American Crew</label
+                    <label for="Murrray's" class="filter__checkbox-label"
+                      >Murrray's</label
                     >
                   </li>
                 </ul>
@@ -188,7 +185,7 @@
 
             <ul class="catalog__list">
               <li class="catalog__item">
-                <a href="catalog-item-1.html" class="catalog__item-link">
+                <a href="catalog_item-1.html" class="catalog__item-link">
                   <h3>
                     <span class="catalog__category">Набор для путешествий</span>
                     <span class="catalog__item-title"
@@ -213,7 +210,7 @@
               </li>
 
               <li class="catalog__item">
-                <a href="catalog-item-2.html" class="catalog__item-link">
+                <a href="#" class="catalog__item-link">
                   <h3>
                     <span class="catalog__category"
                       >Увлажняющий кондиционер</span
@@ -240,7 +237,7 @@
               </li>
 
               <li class="catalog__item">
-                <a href="catalog-item-3.html" class="catalog__item-link">
+                <a href="#" class="catalog__item-link">
                   <h3>
                     <span class="catalog__category">Гель для волос</span>
                     <span class="catalog__item-title"
@@ -264,7 +261,7 @@
               </li>
 
               <li class="catalog__item">
-                <a class="catalog__item-link" href="catalog-item-4.html">
+                <a href="#" class="catalog__item-link">
                   <h3 id="aa">
                     <span class="catalog__category"
                       >Глина для укладки волос</span
@@ -291,7 +288,7 @@
               </li>
 
               <li class="catalog__item">
-                <a href="catalog-item-5.html" class="catalog__item-link">
+                <a href="#" class="catalog__item-link">
                   <h3>
                     <span class="catalog__category"
                       >Гель для укладки волос</span
@@ -317,7 +314,7 @@
               </li>
 
               <li class="catalog__item">
-                <a href="catalog-item-6.html" class="catalog__item-link">
+                <a href="#" class="catalog__item-link">
                   <h3>
                     <span class="catalog__category">Набор для бритья</span>
                     <span class="catalog__item-title"
@@ -342,11 +339,11 @@
             </ul>
 
             <ul class="pagination-list">
-              <li class="pagination-list__item">
-                <a href="#">1</a>
-              </li>
               <li class="pagination-list__item pagination-list__item--current">
-                <a>2</a>
+                <a>1</a>
+              </li>
+              <li class="pagination-list__item">
+                <a href="#">2</a>
               </li>
               <li class="pagination-list__item">
                 <a href="#">3</a>
@@ -365,7 +362,8 @@
         <p class="main-footer__contacts">
           Барбершоп "Бородинский"<br />
           Адрес: г. Санкт-Петербург, Б. Конюшенная, Д. 19/6<br />
-          <a class="main-footer__map" href="map.html">Как нас найти?</a><br />
+          <a class="main-footer__map js-map" href="map.html">Как нас найти?</a
+          ><br />
           Телефон: +7 (495) 333-33-33
         </p>
 
@@ -423,7 +421,7 @@
           </ul>
         </div>
         <div class="main-footer__copyright">
-          <b>Разработано:</b>
+          <b>Макет разработан в:</b>
           <a href="https://htmlacademy.ru" class="button">HTML Academy</a>
         </div>
       </div>
@@ -431,16 +429,14 @@
 
     <section class="modal modal-login">
       <h2>Личный кабинет</h2>
-      <p>Введите свой логин и пароль.</p>
+      <p>Введите пожалуйста свой логин и пароль</p>
       <form
         class="login-form"
         action="https://echo.htmlacademy.ru"
         method="post"
       >
         <p>
-          <label class="visually-hidden" for="login-form__login">
-            Логин
-          </label>
+          <label class="visually-hidden" for="login-form__login"> Логин </label>
           <input
             class="login-form__login"
             type="text"
@@ -462,27 +458,49 @@
           />
         </p>
         <p class="login-password-info">
-          <label class="login-checkbox" for="login-password-info">
+          <label class="login-checkbox">
+            <input
+              type="checkbox"
+              name="remember"
+              class="visually-hidden"
+              id="login-password-info"
+            />
             <span class="checkbox-indicator"></span>
-            Запомнить
+            Запомните меня
           </label>
-          <input
-            type="checkbox"
-            name="remember"
-            class="visually-hidden"
-            id="login-password-info"
-          />
+
           <a class="restore-password" href="#">Восстановить пароль</a>
         </p>
         <button class="button" type="submit">Войти</button>
       </form>
       <button class="modal-close" type="button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          viewBox="0 0 12 12"
+        >
+          <path
+            d="M11.12 2a.4.4 0 0 1 0 .57L8 5.71a.4.4 0 0 0 0 .57l3.14 3.14a.4.4 0 0 1 0 .57L10 11.13a.41.41 0 0 1-.57 0L6.27 8a.41.41 0 0 0-.57 0l-3.14 3.12a.41.41 0 0 1-.57 0L.85 10a.4.4 0 0 1 0-.57L4 6.28a.4.4 0 0 0 0-.57L.85 2.57a.4.4 0 0 1 0-.57L2 .86a.41.41 0 0 1 .57 0L5.7 4a.4.4 0 0 0 .57 0L9.41.87a.41.41 0 0 1 .57 0z"
+          />
+        </svg>
         <span class="visually-hidden">Закрыть</span>
       </button>
     </section>
 
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
+      <iframe
+        class="interactive-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616097!3d59.938794181876254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya%20Konyushennaya%20St%2C%2019%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sen!2snl!4v1596738254793!5m2!1sen!2snl"
+        width="766"
+        height="560"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
       <p>
         <img
           src="img/map.jpg"
@@ -491,8 +509,22 @@
           alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"
         />
       </p>
-      <button class="modal-close" type="button">Закрыть</button>
+      <button class="modal-close modal-close--map" type="button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          viewBox="0 0 12 12"
+        >
+          <path
+            d="M11.12 2a.4.4 0 0 1 0 .57L8 5.71a.4.4 0 0 0 0 .57l3.14 3.14a.4.4 0 0 1 0 .57L10 11.13a.41.41 0 0 1-.57 0L6.27 8a.41.41 0 0 0-.57 0l-3.14 3.12a.41.41 0 0 1-.57 0L.85 10a.4.4 0 0 1 0-.57L4 6.28a.4.4 0 0 0 0-.57L.85 2.57a.4.4 0 0 1 0-.57L2 .86a.41.41 0 0 1 .57 0L5.7 4a.4.4 0 0 0 .57 0L9.41.87a.41.41 0 0 1 .57 0z"
+          />
+        </svg>
+        <span class="visually-hidden">Закрыть</span>
+      </button>
     </section>
+
+    <div class="modal-overlay"></div>
     <script src="popup.js"></script>
   </body>
 </html>

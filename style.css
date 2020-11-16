@@ -151,6 +151,8 @@ input[type="radio"].visually-hidden {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
+
+  margin-left: 5px;
   width: 368px;
   height: 153px;
 }
@@ -958,6 +960,7 @@ input[type="radio"].visually-hidden {
 }
 
 .composition__list {
+  padding: 0;
   list-style: none;
 }
 
