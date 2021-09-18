@@ -1,7 +1,5 @@
-# First training project
-
-<strong><a href="https://fairlytales.github.io/projects/barbershop/index.html">Live version</a></strong>
+# Training project 1
 
 HTML5, CSS3, semantics, flexbox, basic javasctipt.
 
-Webpage template created by HTML Academy.
+<a href="https://fairlytales.github.io/Frontend_training_project_1-Basic/index.html">See it Live</a>
